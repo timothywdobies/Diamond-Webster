@@ -1,0 +1,63 @@
+import Section from '../components/Section';
+
+export default function About() {
+  const values = [
+    {
+      title: 'Simple',
+      description: 'We keep strategies and structures as clear as possible.'
+    },
+    {
+      title: 'Disciplined',
+      description: 'We respect risk, process, and time horizons.'
+    },
+    {
+      title: 'Hands-on',
+      description: 'We learn by operating, iterating, and staying close to the work.'
+    }
+  ];
+
+  return (
+    <div>
+      <Section>
+        <h1 className="text-4xl font-bold text-slate-900 mb-8">About Diamond Webster</h1>
+
+        <div className="prose prose-lg max-w-none mb-12">
+          <p className="text-lg text-slate-600 mb-6">
+            Diamond Webster Equities & Securities is a modern holding company operating across five distinct
+            domains: finance, sport, style, land, and clean energy. We believe that the same core principles —
+            simplicity, discipline, and long-term thinking — can create value in very different arenas.
+          </p>
+
+          <p className="text-lg text-slate-600 mb-6">
+            Our approach is rooted in curiosity and a willingness to learn by doing. Whether we're building
+            an investment portfolio, umpiring a game, designing functional apparel, supporting regenerative
+            agriculture, or exploring offshore wind opportunities, we apply the same mindset: start with clear
+            theses, respect the fundamentals, and remain patient through cycles.
+          </p>
+
+          <p className="text-lg text-slate-600">
+            We're not looking to be everything to everyone. Instead, we focus on areas where we can contribute
+            meaningfully over the long term, learning and adapting as we go. Each division operates with autonomy
+            but shares a commitment to building real, durable value.
+          </p>
+        </div>
+
+        <div className="mb-8">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Our Values</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {values.map((value, index) => (
+              <div key={index} className="text-center">
+                <h3 className="text-2xl font-semibold text-slate-900 mb-3">
+                  {value.title}
+                </h3>
+                <p className="text-slate-600">
+                  {value.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+    </div>
+  );
+}

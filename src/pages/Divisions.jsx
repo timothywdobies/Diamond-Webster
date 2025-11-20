@@ -47,7 +47,7 @@ export default function Divisions() {
               <h2 className="text-2xl font-bold text-slate-900 mb-2">
                 {division.title}
               </h2>
-              <h3 className="text-lg font-semibold text-navy-700 mb-4">
+              <h3 className="text-lg font-semibold text-gold-500 mb-4">
                 {division.subheading}
               </h3>
               <p className="text-slate-600 leading-relaxed">

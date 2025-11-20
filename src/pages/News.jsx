@@ -5,9 +5,9 @@ import { newsItems } from '../data/newsData';
 
 export default function News() {
   const getCategoryColor = (category) => {
-    if (category.includes('Agriculture')) return 'bg-green-100 text-green-800';
-    if (category.includes('Wind')) return 'bg-navy-100 text-navy-800';
-    return 'bg-slate-100 text-slate-800';
+    if (category.includes('Agriculture')) return 'bg-green-500 bg-opacity-20 text-green-400 border border-green-500 border-opacity-30';
+    if (category.includes('Wind')) return 'bg-gold-500 bg-opacity-20 text-gold-400 border border-gold-500 border-opacity-30';
+    return 'bg-slate-500 bg-opacity-20 text-slate-300 border border-slate-500 border-opacity-30';
   };
 
   return (

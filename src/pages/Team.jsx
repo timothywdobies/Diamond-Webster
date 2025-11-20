@@ -35,7 +35,7 @@ export default function Team() {
               <h2 className="text-xl font-bold text-slate-900 mb-2">
                 {member.name}
               </h2>
-              <p className="text-navy-700 font-semibold mb-4">
+              <p className="text-gold-500 font-semibold mb-4">
                 {member.role}
               </p>
               <p className="text-slate-600">

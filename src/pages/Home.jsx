@@ -141,7 +141,7 @@ export default function Home() {
           {recentNews.map((item) => (
             <Card key={item.id}>
               <p className="text-sm text-slate-500 mb-2">{item.date}</p>
-              <span className="inline-block px-3 py-1 bg-navy-100 text-navy-700 text-xs font-medium rounded-full mb-3">
+              <span className="inline-block px-3 py-1 bg-gold-500 bg-opacity-20 text-gold-400 text-xs font-semibold rounded-full mb-3 border border-gold-500 border-opacity-30">
                 {item.category}
               </span>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#ffffff"/>
+
+  <!-- Navy accent bar on left -->
+  <rect width="12" height="630" fill="#1e3a8a"/>
+
+  <!-- Main content -->
+  <text x="100" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#0f172a">
+    Diamond Webster
+  </text>
+
+  <!-- Subtitle -->
+  <text x="100" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="400" fill="#64748b">
+    Equities &amp; Securities
+  </text>
+
+  <!-- Tagline -->
+  <text x="100" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" fill="#1e3a8a">
+    A modern holding company for capital, sport, land, style, and clean energy.
+  </text>
+</svg>

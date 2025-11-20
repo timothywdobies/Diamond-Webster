@@ -35,8 +35,8 @@ export default function Divisions() {
     <div>
       <Section>
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-slate-900 mb-3">Divisions</h1>
-          <p className="text-lg text-slate-600">
+          <h1 className="text-4xl font-bold text-white mb-3">Divisions</h1>
+          <p className="text-lg text-slate-200">
             A portfolio spanning finance, sport, style, land, and clean energy.
           </p>
         </div>
@@ -57,11 +57,11 @@ export default function Divisions() {
           ))}
         </div>
 
-        <div className="mt-12 text-center bg-navy-50 rounded-xl p-8 border border-navy-100">
-          <h2 className="text-2xl font-semibold text-slate-900 mb-4">
+        <div className="mt-12 text-center bg-navy-800 rounded-xl p-8 border border-navy-700">
+          <h2 className="text-2xl font-semibold text-white mb-4">
             Interested in a specific division?
           </h2>
-          <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+          <p className="text-slate-200 mb-6 max-w-2xl mx-auto">
             Whether you're looking to partner, invest, or learn more about our approach, we'd love to hear from you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -51,13 +51,13 @@ export default function Home() {
       {/* Hero Section */}
       <Section className="py-20">
         <div className="max-w-3xl">
-          <p className="text-navy-700 font-semibold mb-4 tracking-wide uppercase text-sm">
+          <p className="text-slate-300 font-semibold mb-4 tracking-wide uppercase text-sm">
             Diamond Webster Equities & Securities
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             A modern holding company for capital, sport, land, style, and clean energy.
           </h1>
-          <p className="text-lg text-slate-600 mb-8">
+          <p className="text-lg text-slate-200 mb-8">
             We manage a portfolio of projects spanning equities & securities, umpiring, attire,
             sustainable agriculture, and offshore wind farms — all guided by discipline, curiosity,
             and long-term thinking.
@@ -70,10 +70,10 @@ export default function Home() {
       </Section>
 
       {/* Divisions Preview */}
-      <Section className="bg-slate-50">
+      <Section className="bg-navy-800">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-slate-900 mb-3">Divisions</h2>
-          <p className="text-slate-600">
+          <h2 className="text-3xl font-bold text-white mb-3">Divisions</h2>
+          <p className="text-slate-200">
             Five lanes, one philosophy: build real, durable value.
           </p>
         </div>
@@ -97,26 +97,26 @@ export default function Home() {
       {/* How We Think */}
       <Section>
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-slate-900 mb-3">How We Think</h2>
+          <h2 className="text-3xl font-bold text-white mb-3">How We Think</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {principles.map((principle, index) => (
             <div key={index} className="text-center">
-              <h3 className="text-2xl font-semibold text-slate-900 mb-3">
+              <h3 className="text-2xl font-semibold text-white mb-3">
                 {principle.title}
               </h3>
-              <p className="text-slate-600">
+              <p className="text-slate-200">
                 {principle.description}
               </p>
             </div>
           ))}
         </div>
         <div className="text-center mt-12">
-          <div className="bg-navy-50 rounded-xl p-8 border border-navy-100">
-            <h3 className="text-2xl font-semibold text-slate-900 mb-4">
+          <div className="bg-navy-800 rounded-xl p-8 border border-navy-700">
+            <h3 className="text-2xl font-semibold text-white mb-4">
               Ready to learn more?
             </h3>
-            <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+            <p className="text-slate-200 mb-6 max-w-2xl mx-auto">
               Discover how our principles drive value across finance, sport, style, agriculture, and clean energy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -128,12 +128,12 @@ export default function Home() {
       </Section>
 
       {/* News Preview */}
-      <Section className="bg-slate-50">
+      <Section className="bg-navy-800">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-slate-900 mb-3">
+          <h2 className="text-3xl font-bold text-white mb-3">
             News & Sustainability Updates
           </h2>
-          <p className="text-slate-600">
+          <p className="text-slate-200">
             A snapshot of recent efforts across sustainable agriculture and clean energy at Diamond Webster.
           </p>
         </div>

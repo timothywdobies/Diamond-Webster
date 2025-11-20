@@ -11,10 +11,10 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-white border-t border-slate-200 mt-auto">
+    <footer className="bg-navy-800 border-t border-navy-700 mt-auto">
       <div className="max-w-5xl mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-600 text-sm">
+          <p className="text-slate-300 text-sm">
             © 2025 Diamond Webster Equities & Securities
           </p>
           <nav className="flex gap-4 text-sm">
@@ -22,7 +22,7 @@ export default function Footer() {
               <Link
                 key={link.path}
                 to={link.path}
-                className="text-slate-600 hover:text-slate-900 transition"
+                className="text-slate-300 hover:text-white transition"
               >
                 {link.label}
               </Link>
@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="mt-4 text-center md:text-left">
           <a
             href="mailto:info@diamondwebster.com"
-            className="text-sm text-slate-600 hover:text-navy-700 transition"
+            className="text-sm text-slate-300 hover:text-white transition"
           >
             info@diamondwebster.com
           </a>

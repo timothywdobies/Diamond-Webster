@@ -39,8 +39,8 @@ export default function Contact() {
   return (
     <div>
       <Section>
-        <h1 className="text-4xl font-bold text-slate-900 mb-4">Get in touch</h1>
-        <p className="text-lg text-slate-600 mb-12">
+        <h1 className="text-4xl font-bold text-white mb-4">Get in touch</h1>
+        <p className="text-lg text-slate-200 mb-12">
           Interested in working with Diamond Webster or learning more about one of our divisions? Reach out below.
         </p>
 
@@ -51,7 +51,7 @@ export default function Contact() {
                 <div className="text-navy-700 text-xl font-semibold mb-2">
                   Thanks for reaching out!
                 </div>
-                <p className="text-slate-600">
+                <p className="text-slate-900">
                   We'll get back to you soon.
                 </p>
               </div>
@@ -126,7 +126,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full bg-navy-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-navy-800 shadow-md hover:shadow-lg transition"
+                  className="w-full bg-white text-navy-900 px-6 py-3 rounded-lg font-semibold hover:bg-slate-100 shadow-lg hover:shadow-xl transition"
                 >
                   Send Message
                 </button>

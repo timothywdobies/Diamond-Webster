@@ -13,9 +13,9 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 bg-white border-b border-slate-200 z-50">
+    <header className="sticky top-0 bg-navy-800 border-b border-navy-700 z-50 backdrop-blur-sm bg-opacity-95">
       <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-        <Link to="/" className="text-xl font-semibold text-slate-900">
+        <Link to="/" className="text-xl font-bold text-white">
           Diamond Webster
         </Link>
         <nav className="hidden md:flex gap-6">
@@ -23,8 +23,8 @@ export default function Header() {
             <Link
               key={link.path}
               to={link.path}
-              className={`text-slate-900 hover:text-navy-700 transition ${
-                location.pathname === link.path ? 'underline decoration-2 decoration-navy-700' : ''
+              className={`text-slate-200 hover:text-white transition ${
+                location.pathname === link.path ? 'text-white font-semibold underline decoration-2' : ''
               }`}
             >
               {link.label}
@@ -37,8 +37,8 @@ export default function Header() {
             <Link
               key={link.path}
               to={link.path}
-              className={`text-slate-900 hover:text-navy-700 transition ${
-                location.pathname === link.path ? 'font-semibold text-navy-700' : ''
+              className={`text-slate-200 hover:text-white transition ${
+                location.pathname === link.path ? 'font-semibold text-white' : ''
               }`}
             >
               {link.label}

@@ -24,8 +24,8 @@ export default function Team() {
   return (
     <div>
       <Section>
-        <h1 className="text-4xl font-bold text-slate-900 mb-4">Team</h1>
-        <p className="text-lg text-slate-600 mb-12">
+        <h1 className="text-4xl font-bold text-white mb-4">Team</h1>
+        <p className="text-lg text-slate-200 mb-12">
           Diamond Webster is led by a small, focused leadership team.
         </p>
 
@@ -45,11 +45,11 @@ export default function Team() {
           ))}
         </div>
 
-        <div className="mt-12 text-center bg-navy-50 rounded-xl p-8 border border-navy-100">
-          <h2 className="text-2xl font-semibold text-slate-900 mb-4">
+        <div className="mt-12 text-center bg-navy-800 rounded-xl p-8 border border-navy-700">
+          <h2 className="text-2xl font-semibold text-white mb-4">
             Interested in working with our team?
           </h2>
-          <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+          <p className="text-slate-200 mb-6 max-w-2xl mx-auto">
             We're always open to conversations about partnerships, opportunities, and collaborations across our divisions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

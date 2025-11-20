@@ -13,10 +13,10 @@ export default function News() {
   return (
     <div>
       <Section>
-        <h1 className="text-4xl font-bold text-slate-900 mb-4">
+        <h1 className="text-4xl font-bold text-white mb-4">
           News & Sustainability Updates
         </h1>
-        <p className="text-lg text-slate-600 mb-12">
+        <p className="text-lg text-slate-200 mb-12">
           Updates for internal and external stakeholders on recent sustainability efforts across
           Diamond Webster, with a focus on agriculture and clean energy.
         </p>
@@ -38,11 +38,11 @@ export default function News() {
           ))}
         </div>
 
-        <div className="mt-12 text-center bg-navy-50 rounded-xl p-8 border border-navy-100">
-          <h2 className="text-2xl font-semibold text-slate-900 mb-4">
+        <div className="mt-12 text-center bg-navy-800 rounded-xl p-8 border border-navy-700">
+          <h2 className="text-2xl font-semibold text-white mb-4">
             Stay updated on our sustainability efforts
           </h2>
-          <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+          <p className="text-slate-200 mb-6 max-w-2xl mx-auto">
             Learn more about our commitment to sustainable practices across agriculture and clean energy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

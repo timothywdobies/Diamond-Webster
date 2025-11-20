@@ -1,12 +1,13 @@
 import Section from '../components/Section';
 import Card from '../components/Card';
+import Button from '../components/Button';
 import { newsItems } from '../data/newsData';
 
 export default function News() {
   const getCategoryColor = (category) => {
-    if (category.includes('Agriculture')) return 'bg-green-100 text-green-700';
-    if (category.includes('Wind')) return 'bg-blue-100 text-blue-700';
-    return 'bg-slate-100 text-slate-700';
+    if (category.includes('Agriculture')) return 'bg-green-100 text-green-800';
+    if (category.includes('Wind')) return 'bg-navy-100 text-navy-800';
+    return 'bg-slate-100 text-slate-800';
   };
 
   return (
@@ -35,6 +36,19 @@ export default function News() {
               </p>
             </Card>
           ))}
+        </div>
+
+        <div className="mt-12 text-center bg-navy-50 rounded-xl p-8 border border-navy-100">
+          <h2 className="text-2xl font-semibold text-slate-900 mb-4">
+            Stay updated on our sustainability efforts
+          </h2>
+          <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+            Learn more about our commitment to sustainable practices across agriculture and clean energy.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button to="/divisions">Explore our divisions</Button>
+            <Button to="/contact" variant="secondary">Contact us</Button>
+          </div>
         </div>
       </Section>
     </div>

@@ -47,7 +47,7 @@ export default function Divisions() {
               <h2 className="text-2xl font-bold text-slate-900 mb-2">
                 {division.title}
               </h2>
-              <h3 className="text-lg font-semibold text-emerald-700 mb-4">
+              <h3 className="text-lg font-semibold text-navy-700 mb-4">
                 {division.subheading}
               </h3>
               <p className="text-slate-600 leading-relaxed">
@@ -57,11 +57,17 @@ export default function Divisions() {
           ))}
         </div>
 
-        <div className="mt-12 text-center bg-slate-50 rounded-xl p-8">
+        <div className="mt-12 text-center bg-navy-50 rounded-xl p-8 border border-navy-100">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">
             Interested in a specific division?
           </h2>
-          <Button to="/contact">Get in touch →</Button>
+          <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+            Whether you're looking to partner, invest, or learn more about our approach, we'd love to hear from you.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button to="/contact">Get in touch →</Button>
+            <Button to="/about" variant="secondary">Learn about our approach</Button>
+          </div>
         </div>
       </Section>
     </div>

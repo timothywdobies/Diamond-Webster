@@ -23,8 +23,8 @@ export default function Header() {
             <Link
               key={link.path}
               to={link.path}
-              className={`text-slate-900 hover:text-emerald-700 transition ${
-                location.pathname === link.path ? 'underline decoration-2 decoration-emerald-700' : ''
+              className={`text-slate-900 hover:text-navy-700 transition ${
+                location.pathname === link.path ? 'underline decoration-2 decoration-navy-700' : ''
               }`}
             >
               {link.label}
@@ -37,8 +37,8 @@ export default function Header() {
             <Link
               key={link.path}
               to={link.path}
-              className={`text-slate-900 hover:text-emerald-700 transition ${
-                location.pathname === link.path ? 'font-semibold' : ''
+              className={`text-slate-900 hover:text-navy-700 transition ${
+                location.pathname === link.path ? 'font-semibold text-navy-700' : ''
               }`}
             >
               {link.label}

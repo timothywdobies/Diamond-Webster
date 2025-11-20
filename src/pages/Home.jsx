@@ -51,7 +51,7 @@ export default function Home() {
       {/* Hero Section */}
       <Section className="py-20">
         <div className="max-w-3xl">
-          <p className="text-emerald-700 font-medium mb-4">
+          <p className="text-navy-700 font-semibold mb-4 tracking-wide uppercase text-sm">
             Diamond Webster Equities & Securities
           </p>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
@@ -89,6 +89,9 @@ export default function Home() {
             </Card>
           ))}
         </div>
+        <div className="text-center mt-12">
+          <Button to="/divisions">Explore all divisions →</Button>
+        </div>
       </Section>
 
       {/* How We Think */}
@@ -108,6 +111,20 @@ export default function Home() {
             </div>
           ))}
         </div>
+        <div className="text-center mt-12">
+          <div className="bg-navy-50 rounded-xl p-8 border border-navy-100">
+            <h3 className="text-2xl font-semibold text-slate-900 mb-4">
+              Ready to learn more?
+            </h3>
+            <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+              Discover how our principles drive value across finance, sport, style, agriculture, and clean energy.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button to="/about">About us</Button>
+              <Button to="/team" variant="secondary">Meet the team</Button>
+            </div>
+          </div>
+        </div>
       </Section>
 
       {/* News Preview */}
@@ -124,7 +141,7 @@ export default function Home() {
           {recentNews.map((item) => (
             <Card key={item.id}>
               <p className="text-sm text-slate-500 mb-2">{item.date}</p>
-              <span className="inline-block px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-medium rounded-full mb-3">
+              <span className="inline-block px-3 py-1 bg-navy-100 text-navy-700 text-xs font-medium rounded-full mb-3">
                 {item.category}
               </span>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">

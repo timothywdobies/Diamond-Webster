@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="mt-4 text-center md:text-left">
           <a
             href="mailto:info@diamondwebster.com"
-            className="text-sm text-slate-600 hover:text-emerald-700 transition"
+            className="text-sm text-slate-600 hover:text-navy-700 transition"
           >
             info@diamondwebster.com
           </a>

@@ -48,7 +48,7 @@ export default function Contact() {
           <Card>
             {submitted ? (
               <div className="text-center py-8">
-                <div className="text-emerald-700 text-xl font-semibold mb-2">
+                <div className="text-navy-700 text-xl font-semibold mb-2">
                   Thanks for reaching out!
                 </div>
                 <p className="text-slate-600">
@@ -68,7 +68,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition"
+                    className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-navy-500 focus:border-navy-500 outline-none transition"
                   />
                 </div>
 
@@ -83,7 +83,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition"
+                    className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-navy-500 focus:border-navy-500 outline-none transition"
                   />
                 </div>
 
@@ -120,13 +120,13 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     rows="5"
-                    className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition resize-vertical"
+                    className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-navy-500 focus:border-navy-500 outline-none transition resize-vertical"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-slate-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-800 transition"
+                  className="w-full bg-navy-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-navy-800 shadow-md hover:shadow-lg transition"
                 >
                   Send Message
                 </button>

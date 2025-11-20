@@ -1,5 +1,6 @@
 import Section from '../components/Section';
 import Card from '../components/Card';
+import Button from '../components/Button';
 
 export default function Team() {
   const teamMembers = [
@@ -34,7 +35,7 @@ export default function Team() {
               <h2 className="text-xl font-bold text-slate-900 mb-2">
                 {member.name}
               </h2>
-              <p className="text-emerald-700 font-medium mb-4">
+              <p className="text-navy-700 font-semibold mb-4">
                 {member.role}
               </p>
               <p className="text-slate-600">
@@ -42,6 +43,19 @@ export default function Team() {
               </p>
             </Card>
           ))}
+        </div>
+
+        <div className="mt-12 text-center bg-navy-50 rounded-xl p-8 border border-navy-100">
+          <h2 className="text-2xl font-semibold text-slate-900 mb-4">
+            Interested in working with our team?
+          </h2>
+          <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+            We're always open to conversations about partnerships, opportunities, and collaborations across our divisions.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button to="/contact">Get in touch</Button>
+            <Button to="/divisions" variant="secondary">Explore our work</Button>
+          </div>
         </div>
       </Section>
     </div>

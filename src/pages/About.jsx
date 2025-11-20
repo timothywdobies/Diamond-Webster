@@ -1,4 +1,5 @@
 import Section from '../components/Section';
+import Button from '../components/Button';
 
 export default function About() {
   const values = [
@@ -55,6 +56,19 @@ export default function About() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+
+        <div className="mt-12 text-center bg-navy-50 rounded-xl p-8 border border-navy-100">
+          <h2 className="text-2xl font-semibold text-slate-900 mb-4">
+            Want to see our values in action?
+          </h2>
+          <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+            Explore our divisions to see how we apply simplicity, discipline, and hands-on learning across different industries.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button to="/divisions">View our divisions</Button>
+            <Button to="/team" variant="secondary">Meet the team</Button>
           </div>
         </div>
       </Section>

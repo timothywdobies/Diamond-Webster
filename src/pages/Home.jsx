@@ -70,7 +70,7 @@ export default function Home() {
       </Section>
 
       {/* Divisions Preview */}
-      <Section className="bg-navy-800">
+      <Section className="bg-navy-900">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white mb-3">Divisions</h2>
           <p className="text-slate-200">
@@ -112,7 +112,7 @@ export default function Home() {
           ))}
         </div>
         <div className="text-center mt-12">
-          <div className="bg-navy-800 rounded-xl p-8 border border-navy-700">
+          <div className="bg-navy-900 rounded-xl p-8 border border-navy-800 border-opacity-30">
             <h3 className="text-2xl font-semibold text-white mb-4">
               Ready to learn more?
             </h3>
@@ -128,7 +128,7 @@ export default function Home() {
       </Section>
 
       {/* News Preview */}
-      <Section className="bg-navy-800">
+      <Section className="bg-navy-900">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-white mb-3">
             News & Sustainability Updates

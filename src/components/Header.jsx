@@ -13,7 +13,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 bg-navy-800 border-b border-navy-700 z-50 backdrop-blur-sm bg-opacity-95">
+    <header className="sticky top-0 bg-navy-900 border-b border-navy-800 border-opacity-50 z-50 backdrop-blur-sm bg-opacity-95">
       <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="text-xl font-bold text-white">
           Diamond Webster

@@ -11,7 +11,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-navy-800 border-t border-navy-700 mt-auto">
+    <footer className="bg-navy-900 border-t border-navy-800 border-opacity-50 mt-auto">
       <div className="max-w-5xl mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-300 text-sm">

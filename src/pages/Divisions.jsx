@@ -57,7 +57,7 @@ export default function Divisions() {
           ))}
         </div>
 
-        <div className="mt-12 text-center bg-navy-800 rounded-xl p-8 border border-navy-700">
+        <div className="mt-12 text-center bg-navy-900 rounded-xl p-8 border border-navy-800 border-opacity-30">
           <h2 className="text-2xl font-semibold text-white mb-4">
             Interested in a specific division?
           </h2>
